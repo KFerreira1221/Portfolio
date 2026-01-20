@@ -1,314 +1,112 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Kevin Ferreira — AI & Data Science Portfolio" />
-  <title>Kevin Ferreira | AI & Data Science Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
+<!-- GRADUATE COURSEWORK PROJECTS -->
+<section id="coursework" class="section">
+  <div class="section-head">
+    <h2>Graduate Coursework Projects (FAU AI M.S.)</h2>
+    <p class="muted">
+      Selected graduate-level projects demonstrating deep learning,
+      reinforcement learning, and large-scale graph analytics.
+    </p>
+  </div>
 
-<body>
-  <header class="site-header">
-    <nav class="nav">
-      <a class="brand" href="#top">Kevin Ferreira</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-      <div class="nav-links" data-nav>
-        <a href="#projects">Projects</a>
-        <a href="#coursework">Coursework</a>
-        <a href="#skills">Skills</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="btn small">Contact</a>
-      </div>
-    </nav>
-  </header>
+  <div class="grid">
 
-  <main id="top" class="container">
-
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-left">
-        <p class="pill">AI • Data Science • Machine Learning</p>
-        <h1>AI & Data Science Portfolio</h1>
-        <p class="lead">
-          MS in Artificial Intelligence (FAU) with a Statistics background.
-          I build practical machine learning models, perform data-driven analysis,
-          and develop real-world software systems.
-        </p>
-
-        <div class="cta-row">
-          <a class="btn" href="#projects">View Projects</a>
-          <a class="btn ghost" href="Kevin_Ferreira_Resume.pdf" target="_blank" rel="noopener">
-            View Resume
-          </a>
-        </div>
-
-        <div class="link-row">
-          <a href="https://github.com/KFerreira1221" target="_blank" rel="noopener">GitHub</a>
-          <span class="dot">•</span>
-          <a href="https://www.kaggle.com/" target="_blank" rel="noopener">Kaggle</a>
-          <span class="dot">•</span>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
-      </div>
-
-      <!-- Featured Project -->
-      <div class="hero-right">
-        <div class="card highlight">
-          <h2>Featured Project</h2>
-          <p class="muted">Water Pump Functionality (Multiclass ML)</p>
-          <ul class="bullets">
-            <li>Real-world infrastructure data (~59k records)</li>
-            <li>EDA, feature engineering, and model comparison</li>
-            <li>Class-level evaluation and interpretation</li>
-          </ul>
-          <div class="card-actions">
-            <a class="btn small" href="#water-pump">Details</a>
-            <a class="btn small ghost"
-               href="https://github.com/KFerreira1221/water-pump-functionality-ml"
-               target="_blank" rel="noopener">GitHub</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-      <div class="section-head">
-        <h2>Projects</h2>
-        <p class="muted">
-          A focused set of projects demonstrating applied machine learning
-          and data science skills.
+    <!-- CAP 6619 Deep Learning -->
+    <article class="project-card">
+      <div class="project-top">
+        <h3>CAP 6619 — Deep Learning (CNN Architecture Comparison)</h3>
+        <p class="tags">
+          <span>CNN</span>
+          <span>TensorFlow / Keras</span>
+          <span>Regularization</span>
+          <span>Model Comparison</span>
         </p>
       </div>
-
-      <div class="grid">
-
-        <!-- Water Pump -->
-        <article id="water-pump" class="project-card">
-          <div class="project-top">
-            <h3>Predicting Water Pump Functionality</h3>
-            <p class="tags">
-              <span>Machine Learning</span>
-              <span>Multiclass Classification</span>
-              <span>Feature Engineering</span>
-              <span>scikit-learn</span>
-            </p>
-          </div>
-          <p>
-            Built a machine learning model to predict the operational status
-            of water pumps in Tanzania to support maintenance planning
-            and resource allocation.
-          </p>
-          <ul class="mini">
-            <li>EDA on noisy, real-world data</li>
-            <li>Careful preprocessing and leakage prevention</li>
-            <li>Model comparison with class-level evaluation</li>
-          </ul>
-          <div class="actions">
-            <a class="btn small"
-               href="https://github.com/KFerreira1221/water-pump-functionality-ml"
-               target="_blank" rel="noopener">GitHub</a>
-            <a class="btn small ghost"
-               href="https://www.kaggle.com/code/rrrepatiti/water-pump-project"
-               target="_blank" rel="noopener">Kaggle Notebook</a>
-          </div>
-        </article>
-
-        <!-- Loan Prediction -->
-        <article class="project-card">
-          <div class="project-top">
-            <h3>Loan Outcome Prediction</h3>
-            <p class="tags">
-              <span>Classification</span>
-              <span>Risk Modeling</span>
-              <span>Model Evaluation</span>
-            </p>
-          </div>
-          <p>
-            Developed supervised learning models to predict loan outcomes,
-            focusing on evaluation tradeoffs such as precision, recall,
-            and business impact.
-          </p>
-          <ul class="mini">
-            <li>Baseline and tree-based models</li>
-            <li>Handling class imbalance</li>
-            <li>Confusion matrix and ROC/PR analysis</li>
-          </ul>
-          <div class="actions">
-            <a class="btn small"
-               href="https://github.com/KFerreira1221/loan-prediction-ml"
-               target="_blank" rel="noopener">GitHub</a>
-            <a class="btn small ghost"
-               href="https://www.kaggle.com/code/rrrepatiti/loan-prediction-project"
-               target="_blank" rel="noopener">Kaggle Notebook</a>
-          </div>
-        </article>
-
-      </div>
-
-      <p class="muted note">
-        Portfolio philosophy: fewer projects, clearly explained, with real-world relevance.
+      <p>
+        Designed and evaluated two convolutional neural network architectures
+        for binary image classification (cats vs dogs), comparing a baseline CNN
+        with a regularized CNN using batch normalization and dropout.
       </p>
-    </section>
+      <ul class="mini">
+        <li>Baseline vs modified CNN architecture</li>
+        <li>Batch normalization, dropout, and kernel size analysis</li>
+        <li>Validation accuracy and loss interpretation</li>
+      </ul>
+      <div class="actions">
+        <a class="btn small"
+           href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Deep%20Learning/CAP_6619_Project.ipynb"
+           target="_blank" rel="noopener">Notebook</a>
+        <a class="btn small ghost"
+           href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Deep%20Learning/CAP%206619%20Project%20Report.pdf"
+           target="_blank" rel="noopener">Report (PDF)</a>
+      </div>
+    </article>
 
-    <!-- GRADUATE COURSEWORK PROJECTS -->
-    <section id="coursework" class="section">
-      <div class="section-head">
-        <h2>Graduate Coursework Projects (FAU AI M.S.)</h2>
-        <p class="muted">
-          Selected coursework demonstrating deep learning, reinforcement learning, and large-scale graph analytics.
+    <!-- CAP 6629 Reinforcement Learning -->
+    <article class="project-card">
+      <div class="project-top">
+        <h3>CAP 6629 — Reinforcement Learning (Q-Learning vs SARSA)</h3>
+        <p class="tags">
+          <span>Reinforcement Learning</span>
+          <span>Q-Learning</span>
+          <span>SARSA</span>
+          <span>Policy Evaluation</span>
         </p>
       </div>
-
-      <div class="grid">
-
-        <!-- CAP 6619 Deep Learning -->
-        <article class="project-card">
-          <div class="project-top">
-            <h3>CAP 6619 — Deep Learning (CNN Architecture Comparison)</h3>
-            <p class="tags">
-              <span>CNN</span><span>TensorFlow / Keras</span><span>Regularization</span><span>Model Comparison</span>
-            </p>
-          </div>
-          <p>
-            Designed and compared two CNN architectures for binary image classification (cats vs dogs),
-            focusing on overfitting control and architecture tradeoffs.
-          </p>
-          <ul class="mini">
-            <li>Baseline CNN vs regularized CNN (batch norm + dropout)</li>
-            <li>Kernel size comparison and validation performance tracking</li>
-            <li>Interpretation of loss/accuracy trends</li>
-          </ul>
-          <div class="actions">
-            <a class="btn small" href="#" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn small ghost" href="#" target="_blank" rel="noopener">Report (PDF)</a>
-          </div>
-        </article>
-
-        <!-- CAP 6629 Reinforcement Learning -->
-        <article class="project-card">
-          <div class="project-top">
-            <h3>CAP 6629 — Reinforcement Learning (Q-Learning vs SARSA)</h3>
-            <p class="tags">
-              <span>Reinforcement Learning</span><span>Q-Learning</span><span>SARSA</span><span>Policy Evaluation</span>
-            </p>
-          </div>
-          <p>
-            Implemented a gridworld environment and compared Q-learning and SARSA under identical reward
-            and exploration settings, analyzing convergence and learning behavior.
-          </p>
-          <ul class="mini">
-            <li>10×10 environment with obstacles</li>
-            <li>ε-greedy exploration and reward shaping</li>
-            <li>Learning curves and convergence analysis</li>
-          </ul>
-          <div class="actions">
-            <a class="btn small" href="#" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn small ghost" href="#" target="_blank" rel="noopener">Report (PDF)</a>
-          </div>
-        </article>
-
-        <!-- Spotify Graph / Social Network Analysis -->
-        <article class="project-card">
-          <div class="project-top">
-            <h3>Social Network Analysis — Spotify Artist Collaboration Graph</h3>
-            <p class="tags">
-              <span>Graph Analytics</span><span>Centrality</span><span>PageRank</span><span>PySpark</span>
-            </p>
-          </div>
-          <p>
-            Analyzed a large collaboration network and computed centrality metrics and PageRank,
-            then applied modeling and clustering using PySpark.
-          </p>
-          <ul class="mini">
-            <li>Large-scale network analysis (nodes/edges at scale)</li>
-            <li>Centrality + PageRank to identify influential artists</li>
-            <li>Regression + clustering workflow in PySpark</li>
-          </ul>
-          <div class="actions">
-            <a class="btn small" href="#" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn small ghost" href="#" target="_blank" rel="noopener">Report (PDF)</a>
-          </div>
-        </article>
-
-      </div>
-
-      <p class="muted note">
-        Note: These are coursework projects included to demonstrate graduate-level AI/ML skills and technical writing.
+      <p>
+        Implemented a gridworld environment and compared Q-learning and SARSA
+        under identical reward structures and exploration strategies.
       </p>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section">
-      <div class="section-head">
-        <h2>Skills</h2>
+      <ul class="mini">
+        <li>10×10 gridworld with obstacles</li>
+        <li>ε-greedy exploration and reward shaping</li>
+        <li>Learning curves and convergence analysis</li>
+      </ul>
+      <div class="actions">
+        <a class="btn small"
+           href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Reinforcement%20Learning/CAP_6629_Project.ipynb"
+           target="_blank" rel="noopener">Notebook</a>
+        <a class="btn small ghost"
+           href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Reinforcement%20Learning/CAP%206629%20Project%20Report.pdf"
+           target="_blank" rel="noopener">Report (PDF)</a>
       </div>
+    </article>
 
-      <div class="skills">
-        <div class="skill-block">
-          <h3>Programming</h3>
-          <p>Python, SQL, Git</p>
-        </div>
-        <div class="skill-block">
-          <h3>Data Science</h3>
-          <p>Pandas, NumPy, EDA, Feature Engineering, Model Evaluation</p>
-        </div>
-        <div class="skill-block">
-          <h3>Machine Learning</h3>
-          <p>Classification, Regression, Tree-Based Models, scikit-learn</p>
-        </div>
-        <div class="skill-block">
-          <h3>Web / Systems</h3>
-          <p>Flask, REST APIs, HTML/CSS/JavaScript, Azure (basic)</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="section-head">
-        <h2>About</h2>
-      </div>
-      <div class="about">
-        <p>
-          I’m Kevin Ferreira, a graduate student in Artificial Intelligence at
-          Florida Atlantic University with a background in Statistics.
-          I’m knowledgeable in applied ML, analytics, and building data-driven systems.
-        </p>
-        <p class="muted">
-          Seeking internships and entry-level roles in AI, machine learning,
-          and data science (remote or South Florida).
+    <!-- Social Network Analysis -->
+    <article class="project-card">
+      <div class="project-top">
+        <h3>Social Network Analysis — Spotify Artist Collaboration Graph</h3>
+        <p class="tags">
+          <span>Graph Analytics</span>
+          <span>Centrality</span>
+          <span>PageRank</span>
+          <span>PySpark</span>
         </p>
       </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-      <div class="section-head">
-        <h2>Contact</h2>
+      <p>
+        Analyzed a large-scale Spotify artist collaboration network using
+        graph theory and centrality metrics, followed by modeling and clustering
+        with PySpark.
+      </p>
+      <ul class="mini">
+        <li>156k nodes and 300k edges</li>
+        <li>Centrality measures and PageRank</li>
+        <li>Regression and clustering workflows</li>
+      </ul>
+      <div class="actions">
+        <a class="btn small"
+           href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Social%20Network%20Analysis/Spotify_Project.ipynb"
+           target="_blank" rel="noopener">Notebook</a>
+        <a class="btn small ghost"
+           href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Social%20Network%20Analysis/Spotify%20Project%20Report.pdf"
+           target="_blank" rel="noopener">Report (PDF)</a>
       </div>
+    </article>
 
-      <div class="contact-card">
-        <div>
-          <p><strong>Email:</strong> <a href="mailto:KevinFerreira1221@gmail.com">KevinFerreira1221@gmail.com</a></p>
-          <p><strong>GitHub:</strong> <a href="https://github.com/KFerreira1221" target="_blank" rel="noopener">github.com/KFerreira1221</a></p>
-          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kevin-ferreira-133875203/" target="_blank" rel="noopener">linkedin.com/in/kevin-ferreira-133875203</a></p>
-        </div>
-        <div class="cta-row">
-          <a class="btn" href="mailto:KevinFerreira1221@gmail.com">Email Me</a>
-          <a class="btn ghost" href="#top">Back to top</a>
-        </div>
-      </div>
-    </section>
+  </div>
 
-    <footer class="footer">
-      <p class="muted">© <span id="year"></span> Kevin Ferreira</p>
-    </footer>
-
-  </main>
-
-  <script src="script.js"></script>
-</body>
-</html>
+  <p class="muted note">
+    These projects are included to demonstrate graduate-level AI/ML knowledge
+    and technical writing as part of the MS in Artificial Intelligence program.
+  </p>
+</section>
 
