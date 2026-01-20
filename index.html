@@ -17,6 +17,7 @@
       <div class="nav-links" data-nav>
         <a href="#coursework">Coursework</a>
         <a href="#projects">Projects</a>
+        <a href="#analysis">Data Analysis</a>
         <a href="#skills">Skills</a>
         <a href="#about">About</a>
         <a href="#contact" class="btn small">Contact</a>
@@ -33,7 +34,8 @@
         <h1>AI & Data Science Portfolio</h1>
         <p class="lead">
           MS in Artificial Intelligence (Florida Atlantic University) with a Statistics background.
-          Experience in deep learning, reinforcement learning, graph analytics, and applied machine learning.
+          Experience in deep learning, reinforcement learning, graph analytics,
+          and applied machine learning.
         </p>
 
         <div class="cta-row">
@@ -63,32 +65,29 @@
       </div>
 
       <div class="grid">
-
         <!-- CAP 6619 -->
         <article class="project-card">
           <div class="project-top">
             <h3>CAP 6619 — Deep Learning (CNN Architecture Comparison)</h3>
             <p class="tags">
-              <span>CNN</span>
-              <span>TensorFlow / Keras</span>
-              <span>Regularization</span>
+              <span>CNN</span><span>TensorFlow / Keras</span><span>Regularization</span>
             </p>
           </div>
           <p>
-            Designed and evaluated two CNN architectures for binary image classification (cats vs dogs),
+            Designed and evaluated two CNN architectures for binary image classification,
             comparing a baseline CNN with a regularized CNN.
           </p>
           <ul class="mini">
-            <li>Batch normalization, dropout, and kernel size analysis</li>
+            <li>Batch normalization, dropout, kernel size analysis</li>
             <li>Validation accuracy and loss interpretation</li>
           </ul>
           <div class="actions">
             <a class="btn small"
                href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Deep%20Learning/CAP_6619_Project.ipynb"
-               target="_blank" rel="noopener">Notebook</a>
+               target="_blank">Notebook</a>
             <a class="btn small ghost"
                href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Deep%20Learning/CAP%206619%20Project%20Report.pdf"
-               target="_blank" rel="noopener">Report (PDF)</a>
+               target="_blank">Report</a>
           </div>
         </article>
 
@@ -97,14 +96,12 @@
           <div class="project-top">
             <h3>CAP 6629 — Reinforcement Learning (Q-Learning vs SARSA)</h3>
             <p class="tags">
-              <span>Reinforcement Learning</span>
-              <span>Q-Learning</span>
-              <span>SARSA</span>
+              <span>Reinforcement Learning</span><span>Q-Learning</span><span>SARSA</span>
             </p>
           </div>
           <p>
-            Implemented a gridworld environment and compared Q-learning and SARSA under identical
-            reward structures and exploration strategies.
+            Implemented a gridworld environment and compared Q-learning and SARSA
+            under identical reward and exploration strategies.
           </p>
           <ul class="mini">
             <li>10×10 gridworld with obstacles</li>
@@ -113,10 +110,10 @@
           <div class="actions">
             <a class="btn small"
                href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Reinforcement%20Learning/CAP_6629_Project.ipynb"
-               target="_blank" rel="noopener">Notebook</a>
+               target="_blank">Notebook</a>
             <a class="btn small ghost"
                href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Reinforcement%20Learning/CAP%206629%20Project%20Report.pdf"
-               target="_blank" rel="noopener">Report (PDF)</a>
+               target="_blank">Report</a>
           </div>
         </article>
 
@@ -125,34 +122,29 @@
           <div class="project-top">
             <h3>Social Network Analysis — Spotify Artist Collaboration Graph</h3>
             <p class="tags">
-              <span>Graph Analytics</span>
-              <span>Centrality</span>
-              <span>PageRank</span>
-              <span>PySpark</span>
+              <span>Graph Analytics</span><span>Centrality</span><span>PageRank</span><span>PySpark</span>
             </p>
           </div>
           <p>
-            Analyzed a large-scale Spotify artist collaboration network using graph theory and centrality metrics,
-            followed by modeling and clustering with PySpark.
+            Analyzed a large-scale Spotify artist collaboration network using graph theory
+            and centrality metrics.
           </p>
           <ul class="mini">
             <li>156k nodes and 300k edges</li>
-            <li>Centrality measures and PageRank</li>
           </ul>
           <div class="actions">
             <a class="btn small"
                href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Social%20Network%20Analysis/Spotify_Project.ipynb"
-               target="_blank" rel="noopener">Notebook</a>
+               target="_blank">Notebook</a>
             <a class="btn small ghost"
                href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Social%20Network%20Analysis/Spotify%20Project%20Report.pdf"
-               target="_blank" rel="noopener">Report (PDF)</a>
+               target="_blank">Report</a>
           </div>
         </article>
-
       </div>
     </section>
 
-    <!-- APPLIED AI PROJECTS -->
+    <!-- APPLIED ML -->
     <section id="projects" class="section">
       <div class="section-head">
         <h2>Applied Machine Learning Projects</h2>
@@ -162,59 +154,54 @@
       </div>
 
       <div class="grid">
-
-        <!-- WATER PUMP -->
         <article class="project-card">
-          <div class="project-top">
-            <h3>Predicting Water Pump Functionality</h3>
-            <p class="tags">
-              <span>Multiclass Classification</span>
-              <span>Feature Engineering</span>
-              <span>scikit-learn</span>
-            </p>
-          </div>
+          <h3>Predicting Water Pump Functionality</h3>
           <p>
-            Built a machine learning pipeline to predict whether water pumps in Tanzania
-            are functional, need repair, or non-functional.
+            Built a multiclass classification model to predict water pump operational status
+            using real-world infrastructure data.
           </p>
-          <ul class="mini">
-            <li>EDA on noisy, real-world data</li>
-            <li>Leakage prevention and categorical encoding</li>
-            <li>Tree-based models with class-level evaluation</li>
-          </ul>
           <div class="actions">
             <a class="btn small"
                href="https://github.com/KFerreira1221/water-pump-functionality-ml"
-               target="_blank" rel="noopener">GitHub</a>
+               target="_blank">GitHub</a>
           </div>
         </article>
 
-        <!-- LOAN PREDICTION -->
         <article class="project-card">
-          <div class="project-top">
-            <h3>Loan Outcome Prediction</h3>
-            <p class="tags">
-              <span>Classification</span>
-              <span>Risk Modeling</span>
-              <span>Model Evaluation</span>
-            </p>
-          </div>
+          <h3>Loan Outcome Prediction</h3>
           <p>
-            Developed supervised learning models to predict loan outcomes,
-            emphasizing precision/recall tradeoffs and business impact.
+            Supervised learning models for loan outcome prediction with emphasis on
+            class imbalance and evaluation metrics.
           </p>
-          <ul class="mini">
-            <li>Baseline vs tree-based models</li>
-            <li>Handling class imbalance</li>
-            <li>Confusion matrix and ROC/PR analysis</li>
-          </ul>
           <div class="actions">
             <a class="btn small"
                href="https://github.com/KFerreira1221/loan-prediction-ml"
-               target="_blank" rel="noopener">GitHub</a>
+               target="_blank">GitHub</a>
           </div>
         </article>
+      </div>
+    </section>
 
+    <!-- DATA ANALYSIS PORTFOLIO LINK -->
+    <section id="analysis" class="section">
+      <div class="section-head">
+        <h2>Data Science & Analysis Portfolio</h2>
+        <p class="muted">
+          Exploratory data analysis, statistical modeling, regression,
+          and visualization-focused projects.
+        </p>
+      </div>
+
+      <div class="contact-card">
+        <p>
+          This separate portfolio highlights data analysis and statistics-focused work,
+          including exploratory analysis and reporting.
+        </p>
+        <a class="btn"
+           href="https://kferreira1221.github.io/PortfolioWebsite/"
+           target="_blank" rel="noopener">
+          View Data Science Portfolio
+        </a>
       </div>
     </section>
 
@@ -223,70 +210,30 @@
       <div class="section-head">
         <h2>Skills</h2>
       </div>
-
       <div class="skills">
-        <div class="skill-block">
-          <h3>Programming</h3>
-          <p>Python, SQL, Git</p>
-        </div>
-        <div class="skill-block">
-          <h3>Machine Learning</h3>
-          <p>Classification, Regression, CNNs, Reinforcement Learning</p>
-        </div>
-        <div class="skill-block">
-          <h3>Data Science</h3>
-          <p>EDA, Feature Engineering, Model Evaluation, Visualization</p>
-        </div>
-        <div class="skill-block">
-          <h3>Systems</h3>
-          <p>Flask, REST APIs, HTML/CSS/JavaScript, Azure (basic)</p>
-        </div>
+        <div class="skill-block"><h3>Programming</h3><p>Python, SQL, Git</p></div>
+        <div class="skill-block"><h3>Machine Learning</h3><p>CNNs, RL, Classification</p></div>
+        <div class="skill-block"><h3>Data Science</h3><p>EDA, Feature Engineering, Visualization</p></div>
+        <div class="skill-block"><h3>Systems</h3><p>Flask, REST APIs, HTML/CSS, Azure</p></div>
       </div>
     </section>
 
     <!-- ABOUT -->
     <section id="about" class="section">
-      <div class="section-head">
-        <h2>About</h2>
-      </div>
       <div class="about">
         <p>
           I’m Kevin Ferreira, an AI master’s student at Florida Atlantic University
           with a strong foundation in statistics and applied machine learning.
-        </p>
-        <p class="muted">
-          Seeking internships and entry-level roles in AI, machine learning,
-          and data science (remote or South Florida).
         </p>
       </div>
     </section>
 
     <!-- CONTACT -->
     <section id="contact" class="section">
-      <div class="section-head">
-        <h2>Contact</h2>
-      </div>
-
       <div class="contact-card">
-        <div>
-          <p><strong>Email:</strong>
-            <a href="mailto:KevinFerreira1221@gmail.com">KevinFerreira1221@gmail.com</a>
-          </p>
-          <p><strong>GitHub:</strong>
-            <a href="https://github.com/KFerreira1221" target="_blank" rel="noopener">
-              github.com/KFerreira1221
-            </a>
-          </p>
-          <p><strong>LinkedIn:</strong>
-            <a href="https://www.linkedin.com/in/kevin-ferreira-133875203/" target="_blank" rel="noopener">
-              linkedin.com/in/kevin-ferreira-133875203
-            </a>
-          </p>
-        </div>
-        <div class="cta-row">
-          <a class="btn" href="mailto:KevinFerreira1221@gmail.com">Email Me</a>
-          <a class="btn ghost" href="#top">Back to top</a>
-        </div>
+        <p><strong>Email:</strong> <a href="mailto:KevinFerreira1221@gmail.com">KevinFerreira1221@gmail.com</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/KFerreira1221" target="_blank">github.com/KFerreira1221</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kevin-ferreira-133875203/" target="_blank">linkedin.com/in/kevin-ferreira-133875203</a></p>
       </div>
     </section>
 
@@ -299,4 +246,5 @@
   <script src="script.js"></script>
 </body>
 </html>
+
 
