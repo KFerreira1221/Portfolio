@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kevin Ferreira — AI & Data Science Portfolio" />
+  <title>Kevin Ferreira | AI & Data Science Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top">Kevin Ferreira</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" data-nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn small">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <p class="pill">AI • Data Science • Machine Learning</p>
+        <h1>AI & Data Science Portfolio</h1>
+        <p class="lead">
+          MS in Artificial Intelligence (FAU) + Statistics background. I build practical ML models,
+          run data-driven analyses, and ship real software projects.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="Kevin_Ferreira_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+        </div>
+
+        <div class="link-row">
+          <a href="https://github.com/KFerreira1221" target="_blank" rel="noopener">GitHub</a>
+          <span class="dot">•</span>
+          <a href="https://www.kaggle.com/" target="_blank" rel="noopener">Kaggle</a>
+          <span class="dot">•</span>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card highlight">
+          <h2>Featured Project</h2>
+          <p class="muted">Water Pump Functionality (Tanzania) — Multiclass ML</p>
+          <ul class="bullets">
+            <li>Real-world messy data (~59k records)</li>
+            <li>EDA + feature engineering + model comparison</li>
+            <li>Evaluation with class-level metrics</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn small" href="#water-pump">Details</a>
+            <a class="btn small ghost" href="https://github.com/USERNAME/water-pump-functionality-ml" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="muted">A focused set of projects that show both AI/ML and practical data science.</p>
+      </div>
+
+      <div class="grid">
+        <!-- Water Pump -->
+        <article id="water-pump" class="project-card">
+          <div class="project-top">
+            <h3>Predicting Water Pump Functionality</h3>
+            <p class="tags">
+              <span>ML</span><span>Multiclass</span><span>Feature Engineering</span><span>Scikit-learn</span>
+            </p>
+          </div>
+          <p>
+            Predict operational status of water pumps in Tanzania (functional / needs repair / non-functional)
+            to support maintenance planning and resource allocation.
+          </p>
+          <ul class="mini">
+            <li>EDA + missing-value strategy + categorical encoding</li>
+            <li>Model comparison (baseline → tree-based models)</li>
+            <li>Class-level evaluation (confusion matrix / report)</li>
+          </ul>
+          <div class="actions">
+            <a class="btn small" href="https://github.com/USERNAME/water-pump-functionality-ml" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn small ghost" href="https://www.kaggle.com/" target="_blank" rel="noopener">Kaggle Notebook</a>
+          </div>
+        </article>
+
+        <!-- Loans -->
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Loan Default / Loan Approval Prediction</h3>
+            <p class="tags">
+              <span>Classification</span><span>Risk Modeling</span><span>Interpretability</span>
+            </p>
+          </div>
+          <p>
+            Built a supervised ML pipeline to predict loan outcomes, emphasizing evaluation tradeoffs
+            (precision/recall) and explainable results.
+          </p>
+          <ul class="mini">
+            <li>Baseline → tuned models</li>
+            <li>Feature engineering and leakage checks</li>
+            <li>Model interpretation and error analysis</li>
+          </ul>
+          <div class="actions">
+            <a class="btn small" href="https://github.com/USERNAME/loan-prediction-ml" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn small ghost" href="https://www.kaggle.com/" target="_blank" rel="noopener">Kaggle Notebook</a>
+          </div>
+        </article>
+
+        <!-- Supporting project -->
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Road Accident Prediction / Analysis</h3>
+            <p class="tags">
+              <span>EDA</span><span>Modeling</span><span>Public Safety</span>
+            </p>
+          </div>
+          <p>
+            Analyzed accident patterns and trained models to predict accident severity/risk. Focused on
+            practical insights and clean visuals.
+          </p>
+          <ul class="mini">
+            <li>Data cleaning + feature creation</li>
+            <li>Model evaluation beyond accuracy</li>
+            <li>Actionable insights for safety</li>
+          </ul>
+          <div class="actions">
+            <a class="btn small" href="https://github.com/USERNAME/road-accident-ml" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn small ghost" href="https://www.kaggle.com/" target="_blank" rel="noopener">Kaggle Notebook</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="muted note">
+        Tip: keep only 3–5 public projects. Quality beats quantity.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p class="muted">Tools and topics I’m comfortable using in real projects.</p>
+      </div>
+
+      <div class="skills">
+        <div class="skill-block">
+          <h3>Core</h3>
+          <p>Python, SQL, Pandas, NumPy, Scikit-learn, Git</p>
+        </div>
+        <div class="skill-block">
+          <h3>ML / AI</h3>
+          <p>Classification, Regression, Feature Engineering, Model Evaluation, Basic Deep Learning</p>
+        </div>
+        <div class="skill-block">
+          <h3>Web / Systems</h3>
+          <p>Flask, REST APIs, HTML/CSS/JS, Azure (basic deployment), Databases</p>
+        </div>
+        <div class="skill-block">
+          <h3>Visualization</h3>
+          <p>Matplotlib, Seaborn, Tableau / Power BI (if applicable)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <div class="about">
+        <p>
+          I’m Kevin Ferreira, a graduate student in Artificial Intelligence at Florida Atlantic University with a Statistics background.
+          I’m interested in applied ML, analytics, and building data-driven systems—especially in healthcare and real-world operations.
+        </p>
+        <p class="muted">
+          Open to internships and entry-level roles in AI/ML, data science, and analytics (remote or South Florida).
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="muted">Best way to reach me is email or LinkedIn.</p>
+      </div>
+
+      <div class="contact-card">
+        <div>
+          <p><strong>Email:</strong> <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/YOUR_HANDLE</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/KFerreira1221" target="_blank" rel="noopener">github.com/KFerreira1221</a></p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="mailto:YOUR_EMAIL@example.com">Email Me</a>
+          <a class="btn ghost" href="#top">Back to top</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="muted">© <span id="year"></span> Kevin Ferreira. Built with HTML/CSS.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
