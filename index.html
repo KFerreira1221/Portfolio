@@ -154,6 +154,47 @@
       </div>
 
       <div class="grid">
+
+        <!-- MLOPS PROJECT -->
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Insurance Claims ML System (Severity + Fraud) — FastAPI + Docker</h3>
+            <p class="tags">
+              <span>XGBoost</span><span>FastAPI</span><span>Docker</span><span>MLOps</span>
+            </p>
+          </div>
+
+          <p>
+            Built an end-to-end insurance ML system with two models:
+            <strong>claim severity prediction</strong> (regression) and
+            <strong>fraud detection</strong> (classification), served through FastAPI
+            and containerized with Docker.
+          </p>
+
+          <ul class="mini">
+            <li><strong>Severity:</strong> R² 0.697 • MAE 11,560 • RMSE 15,446</li>
+            <li><strong>Fraud:</strong> Accuracy 0.850 • Precision 0.696 • Recall 0.667 • F1 0.681</li>
+            <li>Includes feature importance exports, threshold analysis, and prediction logging</li>
+          </ul>
+
+          <div class="actions">
+            <a class="btn small"
+               href="https://github.com/KFerreira1221/mlops-claims"
+               target="_blank" rel="noopener">GitHub</a>
+
+            <a class="btn small ghost"
+               href="PUT_YOUR_GITHUB_REPO_LINK_HERE#readme"
+               target="_blank" rel="noopener">README</a>
+          </div>
+
+          <details class="demo">
+            <summary><strong>Run locally (Docker)</strong></summary>
+            <pre><code>docker build -t mlops-claims-api .
+docker run -p 8000:8000 mlops-claims-api</code></pre>
+            <p class="muted">Open: http://127.0.0.1:8000/ and /docs</p>
+          </details>
+        </article>
+
         <article class="project-card">
           <h3>Predicting Water Pump Functionality</h3>
           <p>
@@ -214,7 +255,7 @@
         <div class="skill-block"><h3>Programming</h3><p>Python, SQL, Git</p></div>
         <div class="skill-block"><h3>Machine Learning</h3><p>CNNs, RL, Classification</p></div>
         <div class="skill-block"><h3>Data Science</h3><p>EDA, Feature Engineering, Visualization</p></div>
-        <div class="skill-block"><h3>Systems</h3><p>Flask, REST APIs, HTML/CSS, Azure</p></div>
+        <div class="skill-block"><h3>Systems</h3><p>FastAPI, REST APIs, HTML/CSS, Docker, Azure</p></div>
       </div>
     </section>
 
@@ -246,5 +287,6 @@
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
