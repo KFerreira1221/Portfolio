@@ -9,188 +9,104 @@
 </head>
 
 <body>
-  <!-- HEADER -->
-  <header class="site-header">
-    <nav class="nav">
-      <a class="brand" href="#top">Kevin Ferreira</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-      <div class="nav-links" data-nav>
-        <a href="#coursework">Coursework</a>
-        <a href="#projects">Projects</a>
-        <a href="#analysis">Data Analysis</a>
-        <a href="#skills">Skills</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="btn small">Contact</a>
-      </div>
-    </nav>
-  </header>
 
-  <main id="top" class="container">
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="#top">Kevin Ferreira</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <div class="nav-links" data-nav>
+      <a href="#coursework">Coursework</a>
+      <a href="#projects">Projects</a>
+      <a href="#analysis">Data Analysis</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn small">Contact</a>
+    </div>
+  </nav>
+</header>
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-left">
-        <p class="pill">AI • Machine Learning • Data Science</p>
-        <h1>AI & Data Science Portfolio</h1>
-        <p class="lead">
-          MS in Artificial Intelligence (Florida Atlantic University) with a Statistics background.
-          Experience in deep learning, reinforcement learning, graph analytics,
-          and applied machine learning.
-        </p>
+<main id="top" class="container">
 
-        <div class="cta-row">
-          <a class="btn" href="#coursework">View Coursework</a>
-          <a class="btn ghost"
-             href="https://github.com/KFerreira1221/Portfolio/blob/main/Kevin%20Ferreira%20Resume.pdf"
-             target="_blank" rel="noopener">
-            View Resume
-          </a>
-        </div>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <p class="pill">AI • Machine Learning • Data Science</p>
+      <h1>AI & Data Science Portfolio</h1>
+      <p class="lead">
+        MS in Artificial Intelligence (Florida Atlantic University) with a Statistics background.
+      </p>
+    </div>
+  </section>
 
-        <div class="link-row">
-          <a href="https://github.com/KFerreira1221" target="_blank" rel="noopener">GitHub</a>
-          <span class="dot">•</span>
-          <a href="https://www.linkedin.com/in/kevin-ferreira-133875203/" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
-      </div>
-    </section>
+  <!-- GRADUATE COURSEWORK -->
+  <section id="coursework" class="section">
+    <div class="section-head">
+      <h2>Graduate Coursework Projects</h2>
+    </div>
 
-    <!-- GRADUATE COURSEWORK -->
-    <section id="coursework" class="section">
-      <div class="section-head">
-        <h2>Graduate Coursework Projects (FAU AI M.S.)</h2>
-        <p class="muted">
-          Selected graduate-level projects demonstrating advanced AI concepts and implementations.
-        </p>
-      </div>
+    <div class="grid">
+      <article class="project-card">
+        <h3>Deep Learning — CNN Architecture Comparison</h3>
+      </article>
 
-      <div class="grid">
+      <article class="project-card">
+        <h3>Reinforcement Learning — Q-Learning vs SARSA</h3>
+      </article>
+    </div>
+  </section> <!-- ✅ PROPERLY CLOSED -->
 
-        <article class="project-card">
-          <div class="project-top">
-            <h3>CAP 6619 — Deep Learning (CNN Architecture Comparison)</h3>
-            <p class="tags">
-              <span>CNN</span><span>TensorFlow / Keras</span><span>Regularization</span>
-            </p>
-          </div>
-          <p>
-            Designed and evaluated two CNN architectures for binary image classification,
-            comparing a baseline CNN with a regularized CNN.
-          </p>
-          <ul class="mini">
-            <li>Batch normalization, dropout, kernel size analysis</li>
-            <li>Validation accuracy and loss interpretation</li>
-          </ul>
-        </article>
+  <!-- APPLIED ML -->
+  <section id="projects" class="section">
+    <div class="section-head">
+      <h2>Applied Machine Learning Projects</h2>
+    </div>
 
-        <article class="project-card">
-          <div class="project-top">
-            <h3>CAP 6629 — Reinforcement Learning (Q-Learning vs SARSA)</h3>
-            <p class="tags">
-              <span>Reinforcement Learning</span><span>Q-Learning</span><span>SARSA</span>
-            </p>
-          </div>
-          <p>
-            Implemented a gridworld environment and compared Q-learning and SARSA
-            under identical reward and exploration strategies.
-          </p>
-        </article>
+    <div class="grid">
 
-      </div>
-    </section>
+      <article class="project-card">
+        <h3>Insurance Claims ML System</h3>
+      </article>
 
-    <!-- APPLIED ML -->
-    <section id="projects" class="section">
-      <div class="section-head">
-        <h2>Applied Machine Learning Projects</h2>
-        <p class="muted">
-          End-to-end applied projects using real-world datasets and rigorous evaluation.
-        </p>
-      </div>
+      <article class="project-card">
+        <h3>Healthcare Readmission Prediction</h3>
+      </article>
 
-      <div class="grid">
+      <article class="project-card">
+        <h3>Predicting Water Pump Functionality</h3>
+      </article>
 
-        <!-- INSURANCE -->
-        <article class="project-card">
-          <div class="project-top">
-            <h3>Insurance Claims ML System (Severity + Fraud)</h3>
-            <p class="tags">
-              <span>XGBoost</span><span>FastAPI</span><span>Docker</span><span>MLOps</span>
-            </p>
-          </div>
-          <p>
-            Built an end-to-end insurance ML system with severity prediction and fraud detection,
-            deployed with FastAPI and Docker.
-          </p>
-          <div class="actions">
-            <a class="btn small"
-               href="https://github.com/KFerreira1221/mlops-claims"
-               target="_blank">GitHub</a>
-            <a class="btn small ghost"
-               href="https://github.com/KFerreira1221/mlops-claims#readme"
-               target="_blank">README</a>
-          </div>
-        </article>
+      <article class="project-card">
+        <h3>Loan Outcome Prediction</h3>
+      </article>
 
-        <!-- HEALTHCARE READMISSION -->
-        <article class="project-card">
-          <div class="project-top">
-            <h3>Healthcare Readmission Prediction</h3>
-            <p class="tags">
-              <span>Healthcare ML</span><span>Classification</span>
-              <span>scikit-learn</span><span>Imbalanced Data</span>
-            </p>
-          </div>
-          <p>
-            Developed a supervised learning pipeline to predict hospital readmission risk
-            using patient and clinical visit features.
-          </p>
-          <ul class="mini">
-            <li>Data preprocessing, encoding, and feature engineering</li>
-            <li>Handled class imbalance with precision, recall, F1, and ROC-AUC</li>
-            <li>Model interpretation with feature importance analysis</li>
-          </ul>
-          <div class="actions">
-            <a class="btn small"
-               href="https://github.com/KFerreira1221/healthcare-readmission-ml"
-               target="_blank">GitHub</a>
-            <a class="btn small ghost"
-               href="https://github.com/KFerreira1221/healthcare-readmission-ml#readme"
-               target="_blank">README</a>
-          </div>
-        </article>
+    </div>
+  </section> <!-- ✅ PROPERLY CLOSED -->
 
-        <!-- WATER PUMP -->
-        <article class="project-card">
-          <div class="project-top">
-            <h3>Predicting Water Pump Functionality</h3>
-            <p class="tags">
-              <span>Classification</span><span>scikit-learn</span>
-            </p>
-          </div>
-        </article>
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+  </section>
 
-        <!-- LOAN -->
-        <article class="project-card">
-          <div class="project-top">
-            <h3>Loan Outcome Prediction</h3>
-            <p class="tags">
-              <span>Supervised Learning</span><span>Imbalanced Data</span>
-            </p>
-          </div>
-        </article>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <p>I’m Kevin Ferreira, an AI master’s student at FAU.</p>
+  </section>
 
-      </div>
-    </section>
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <p>Email: KevinFerreira1221@gmail.com</p>
+  </section>
 
-    <footer class="footer">
-      <p class="muted">© <span id="year"></span> Kevin Ferreira</p>
-    </footer>
+  <footer class="footer">
+    <p>© <span id="year"></span> Kevin Ferreira</p>
+  </footer>
 
-  </main>
+</main>
 
-  <script src="script.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
-
 
