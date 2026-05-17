@@ -1,1 +1,631 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kevin Ferreira — AI & Data Science Portfolio" />
+  <title>Kevin Ferreira | AI & Data Science Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top">Kevin Ferreira</a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <div class="nav-links" data-nav>
+        <a href="#coursework">Coursework</a>
+        <a href="#projects">Projects</a>
+        <a href="#analysis">Data Analysis</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="btn small">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="hero-left">
+
+        <p class="pill">
+          AI • Machine Learning • Data Science • NLP
+        </p>
+
+        <h1>AI & Data Science Portfolio</h1>
+
+        <p class="lead">
+          MS in Artificial Intelligence (Florida Atlantic University)
+          with a Statistics background.
+          Experience in deep learning, reinforcement learning,
+          graph analytics, natural language processing,
+          and applied machine learning.
+        </p>
+
+        <div class="cta-row">
+
+          <a class="btn" href="#coursework">
+            View Coursework
+          </a>
+
+          <a
+            class="btn ghost"
+            href="https://github.com/KFerreira1221/Portfolio/blob/main/Kevin%20Ferreira%20Resume.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            View Resume
+          </a>
+
+        </div>
+
+        <div class="link-row">
+
+          <a
+            href="https://github.com/KFerreira1221"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+
+          <span class="dot">•</span>
+
+          <a
+            href="https://www.linkedin.com/in/kevin-ferreira-133875203/"
+            target="_blank"
+            rel="noopener"
+          >
+            LinkedIn
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- COURSEWORK -->
+    <section id="coursework" class="section">
+
+      <div class="section-head">
+        <h2>Graduate Coursework Projects (FAU AI M.S.)</h2>
+
+        <p class="muted">
+          Selected graduate-level projects demonstrating advanced AI concepts and implementations.
+        </p>
+      </div>
+
+      <div class="grid">
+
+        <!-- DEEP LEARNING -->
+        <article class="project-card">
+
+          <div class="project-top">
+
+            <h3>
+              CAP 6619 — Deep Learning (CNN Architecture Comparison)
+            </h3>
+
+            <p class="tags">
+              <span>CNN</span>
+              <span>TensorFlow / Keras</span>
+              <span>Regularization</span>
+            </p>
+
+          </div>
+
+          <p>
+            Designed and evaluated two CNN architectures
+            for binary image classification,
+            comparing a baseline CNN with a regularized CNN.
+          </p>
+
+          <ul class="mini">
+            <li>Batch normalization and dropout</li>
+            <li>Validation accuracy and loss analysis</li>
+          </ul>
+
+          <div class="actions">
+
+            <a
+              class="btn small"
+              href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Deep%20Learning/CAP_6619_Project.ipynb"
+              target="_blank"
+              rel="noopener"
+            >
+              Notebook
+            </a>
+
+            <a
+              class="btn small ghost"
+              href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Deep%20Learning/CAP%206619%20Project%20Report.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Report
+            </a>
+
+          </div>
+
+        </article>
+
+        <!-- RL -->
+        <article class="project-card">
+
+          <div class="project-top">
+
+            <h3>
+              CAP 6629 — Reinforcement Learning (Q-Learning vs SARSA)
+            </h3>
+
+            <p class="tags">
+              <span>Reinforcement Learning</span>
+              <span>Q-Learning</span>
+              <span>SARSA</span>
+            </p>
+
+          </div>
+
+          <p>
+            Implemented a gridworld environment
+            and compared Q-learning and SARSA
+            under identical exploration strategies.
+          </p>
+
+          <ul class="mini">
+            <li>10×10 gridworld with obstacles</li>
+            <li>ε-greedy exploration and convergence analysis</li>
+          </ul>
+
+          <div class="actions">
+
+            <a
+              class="btn small"
+              href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Reinforcement%20Learning/CAP_6629_Project.ipynb"
+              target="_blank"
+              rel="noopener"
+            >
+              Notebook
+            </a>
+
+            <a
+              class="btn small ghost"
+              href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Reinforcement%20Learning/CAP%206629%20Project%20Report.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Report
+            </a>
+
+          </div>
+
+        </article>
+
+        <!-- SPOTIFY -->
+        <article class="project-card">
+
+          <div class="project-top">
+
+            <h3>
+              Social Network Analysis — Spotify Artist Collaboration Graph
+            </h3>
+
+            <p class="tags">
+              <span>Graph Analytics</span>
+              <span>PageRank</span>
+              <span>Centrality</span>
+              <span>PySpark</span>
+            </p>
+
+          </div>
+
+          <p>
+            Analyzed a large-scale Spotify artist collaboration network
+            using graph theory and network centrality metrics.
+          </p>
+
+          <ul class="mini">
+            <li>156k nodes and 300k edges</li>
+          </ul>
+
+          <div class="actions">
+
+            <a
+              class="btn small"
+              href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Social%20Network%20Analysis/Spotify_Project.ipynb"
+              target="_blank"
+              rel="noopener"
+            >
+              Notebook
+            </a>
+
+            <a
+              class="btn small ghost"
+              href="https://github.com/KFerreira1221/ai-masters-coursework/blob/main/Social%20Network%20Analysis/Spotify%20Project%20Report.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Report
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+      <div class="section-head">
+
+        <h2>Applied Machine Learning Projects</h2>
+
+        <p class="muted">
+          End-to-end applied projects using real-world datasets and evaluation.
+        </p>
+
+      </div>
+
+      <div class="grid">
+
+        <!-- INSURANCE -->
+        <article class="project-card">
+
+          <div class="project-top">
+
+            <h3>
+              Insurance Claims ML System (Severity + Fraud)
+            </h3>
+
+            <p class="tags">
+              <span>XGBoost</span>
+              <span>FastAPI</span>
+              <span>Docker</span>
+              <span>MLOps</span>
+            </p>
+
+          </div>
+
+          <p>
+            Built an end-to-end insurance ML system
+            for claim severity prediction and fraud detection.
+          </p>
+
+          <ul class="mini">
+            <li>Regression + classification pipelines</li>
+            <li>FastAPI deployment with Docker</li>
+            <li>Prediction logging and threshold analysis</li>
+          </ul>
+
+          <div class="actions">
+
+            <a
+              class="btn small"
+              href="https://github.com/KFerreira1221/mlops-claims"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub
+            </a>
+
+          </div>
+
+        </article>
+
+        <!-- HEALTHCARE -->
+        <article class="project-card">
+
+          <div class="project-top">
+
+            <h3>
+              Healthcare Readmission Prediction
+            </h3>
+
+            <p class="tags">
+              <span>Healthcare ML</span>
+              <span>Classification</span>
+              <span>scikit-learn</span>
+            </p>
+
+          </div>
+
+          <p>
+            Built a supervised learning pipeline
+            to predict hospital readmission risk.
+          </p>
+
+          <ul class="mini">
+            <li>Handled class imbalance</li>
+            <li>Feature importance analysis</li>
+            <li>Precision, recall, and ROC-AUC evaluation</li>
+          </ul>
+
+          <div class="actions">
+
+            <a
+              class="btn small"
+              href="https://github.com/KFerreira1221/healthcare-readmission-ml"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub
+            </a>
+
+          </div>
+
+        </article>
+
+        <!-- NLP -->
+        <article class="project-card">
+
+          <div class="project-top">
+
+            <h3>
+              Natural Language Processing — Sentiment Analysis Comparison
+            </h3>
+
+            <p class="tags">
+              <span>NLP</span>
+              <span>Sentiment Analysis</span>
+              <span>TextBlob</span>
+              <span>VADER</span>
+              <span>Python</span>
+            </p>
+
+          </div>
+
+          <p>
+            Built a sentiment analysis system comparing
+            TextBlob and VADER on positive and negative text samples.
+          </p>
+
+          <ul class="mini">
+            <li>TextBlob: 97.1% positive accuracy</li>
+            <li>VADER: stronger negative sentiment detection</li>
+            <li>Compared strengths and weaknesses of rule-based NLP tools</li>
+          </ul>
+
+          <div class="actions">
+
+            <a
+              class="btn small"
+              href="https://github.com/KFerreira1221"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub
+            </a>
+
+          </div>
+
+        </article>
+
+        <!-- WATER PUMP -->
+        <article class="project-card">
+
+          <div class="project-top">
+
+            <h3>
+              Predicting Water Pump Functionality
+            </h3>
+
+            <p class="tags">
+              <span>Classification</span>
+              <span>Feature Engineering</span>
+              <span>scikit-learn</span>
+            </p>
+
+          </div>
+
+          <p>
+            Built a multiclass classification model
+            predicting water pump operational status.
+          </p>
+
+          <ul class="mini">
+            <li>Handled missing values and encoding</li>
+            <li>Cross-validation evaluation</li>
+            <li>Feature engineering improvements</li>
+          </ul>
+
+          <div class="actions">
+
+            <a
+              class="btn small"
+              href="https://github.com/KFerreira1221/water-pump-functionality-ml"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub
+            </a>
+
+          </div>
+
+        </article>
+
+        <!-- LOAN -->
+        <article class="project-card">
+
+          <div class="project-top">
+
+            <h3>
+              Loan Outcome Prediction
+            </h3>
+
+            <p class="tags">
+              <span>Supervised Learning</span>
+              <span>Imbalanced Data</span>
+            </p>
+
+          </div>
+
+          <p>
+            Developed supervised learning models
+            to predict loan outcomes.
+          </p>
+
+          <ul class="mini">
+            <li>Class imbalance handling</li>
+            <li>Feature selection and preprocessing</li>
+            <li>Precision, recall, and F1 evaluation</li>
+          </ul>
+
+          <div class="actions">
+
+            <a
+              class="btn small"
+              href="https://github.com/KFerreira1221/loan-prediction-ml"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- ANALYSIS -->
+    <section id="analysis" class="section">
+
+      <div class="section-head">
+
+        <h2>Data Science & Analysis Portfolio</h2>
+
+        <p class="muted">
+          Exploratory data analysis, statistical modeling,
+          visualization, and reporting projects.
+        </p>
+
+      </div>
+
+      <div class="contact-card">
+
+        <p>
+          Separate portfolio highlighting
+          statistics and data analysis work.
+        </p>
+
+        <a
+          class="btn"
+          href="https://kferreira1221.github.io/PortfolioWebsite/"
+          target="_blank"
+          rel="noopener"
+        >
+          View Data Science Portfolio
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+
+      <div class="section-head">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills">
+
+        <div class="skill-block">
+          <h3>Programming</h3>
+          <p>Python, SQL, Git</p>
+        </div>
+
+        <div class="skill-block">
+          <h3>Machine Learning & NLP</h3>
+          <p>
+            CNNs, Reinforcement Learning,
+            Classification, Sentiment Analysis,
+            TextBlob, VADER
+          </p>
+        </div>
+
+        <div class="skill-block">
+          <h3>Data Science</h3>
+          <p>
+            EDA, Feature Engineering,
+            Statistical Analysis, Visualization
+          </p>
+        </div>
+
+        <div class="skill-block">
+          <h3>Systems</h3>
+          <p>
+            FastAPI, REST APIs,
+            Docker, Azure, HTML/CSS
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+
+      <div class="contact-card">
+
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:KevinFerreira1221@gmail.com">
+            KevinFerreira1221@gmail.com
+          </a>
+        </p>
+
+        <p>
+          <strong>GitHub:</strong>
+          <a
+            href="https://github.com/KFerreira1221"
+            target="_blank"
+            rel="noopener"
+          >
+            github.com/KFerreira1221
+          </a>
+        </p>
+
+        <p>
+          <strong>LinkedIn:</strong>
+          <a
+            href="https://www.linkedin.com/in/kevin-ferreira-133875203/"
+            target="_blank"
+            rel="noopener"
+          >
+            linkedin.com/in/kevin-ferreira-133875203
+          </a>
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="muted">
+        © <span id="year"></span> Kevin Ferreira
+      </p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
